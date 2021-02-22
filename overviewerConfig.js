@@ -23,15 +23,15 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "bronze_age - overworld",
-        "medieval - overworld",
-        "renaissance - overworld",
-        "industrial - overworld",
-        "great_war - overworld"
+        "Bronze Age - overworld",
+        "Medieval - overworld",
+        "Renaissance - overworld",
+        "Industrial - overworld",
+        "Great War - overworld"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1613106090",
+        "cacheTag": "1614029518",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -45,14 +45,14 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Bronze Age",
+            "name": "North",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "bronze_age",
+            "path": "Bronze North",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "bronze_age - overworld",
+            "world": "Bronze Age - overworld",
             "last_rendertime": 1601349120,
             "imgextension": "png",
             "isOverlay": false,
@@ -68,14 +68,37 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
-            "name": "Medieval",
+            "name": "South",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "medieval",
+            "path": "Bronze South",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "medieval - overworld",
+            "world": "Bronze Age - overworld",
+            "last_rendertime": 1601349120,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                117,
+                80,
+                -819
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 2
+        },
+        {
+            "name": "North",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "Medieval North",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Medieval - overworld",
             "last_rendertime": 1611262438,
             "imgextension": "png",
             "isOverlay": false,
@@ -91,14 +114,37 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
-            "name": "Renaissance",
+            "name": "South",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "renaissance",
+            "path": "Medieval South",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "renaissance - overworld",
+            "world": "Medieval - overworld",
+            "last_rendertime": 1611262438,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                117,
+                80,
+                -819
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 2
+        },
+        {
+            "name": "North",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "Renaissance North",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Renaissance - overworld",
             "last_rendertime": 1601349134,
             "imgextension": "png",
             "isOverlay": false,
@@ -114,14 +160,37 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
-            "name": "Industrial",
+            "name": "South",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "industrial",
+            "path": "Renaissance South",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "industrial - overworld",
+            "world": "Renaissance - overworld",
+            "last_rendertime": 1601349134,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                117,
+                80,
+                -819
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 2
+        },
+        {
+            "name": "North",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "Industrial North",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Industrial - overworld",
             "last_rendertime": 1601224690,
             "imgextension": "png",
             "isOverlay": false,
@@ -137,14 +206,37 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
-            "name": "Great War",
+            "name": "South",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "great_war",
+            "path": "Industrial South",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "great_war - overworld",
+            "world": "Industrial - overworld",
+            "last_rendertime": 1601224690,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                117,
+                80,
+                -819
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 2
+        },
+        {
+            "name": "North",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "Great North",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Great War - overworld",
             "last_rendertime": 1613093935,
             "imgextension": "png",
             "isOverlay": false,
@@ -158,6 +250,29 @@ var overviewerConfig = {
             "minZoom": 0,
             "spawn": false,
             "north_direction": 0
+        },
+        {
+            "name": "South",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "Great South",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Great War - overworld",
+            "last_rendertime": 1613093935,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                117,
+                80,
+                -819
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 2
         }
     ]
 };
